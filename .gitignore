@@ -1,0 +1,32 @@
+# Зависимости
+node_modules/
+
+# Сборка и кеши
+dist/
+.vite/
+*.tsbuildinfo
+.stylelintcache
+.eslintcache
+
+# Кеши тестов
+.vitest/
+.cache/vitest/
+jest-cache/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Конфигурации среды и окружения
+.env*
+.vscode/
+.idea/
+.zed/
+*.iml
+
+# ОС-специфичные файлы
+.DS_Store
+Thumbs.db
