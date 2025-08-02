@@ -2,4 +2,8 @@
 @use "./global/custom-vars";
 @use "./global/global";
 
+@use "./components/header";
+@use "./components/footer";
+@use "./components/section";
+
 @use "./components/container";

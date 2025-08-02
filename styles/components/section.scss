@@ -1,0 +1,11 @@
+:where(section) {
+  margin-block: 4rem;
+}
+
+:where(section:first-child) {
+  margin-block-start: 2rem;
+}
+
+:where(section:last-child) {
+  margin-block-end: 2rem;
+}

@@ -3,21 +3,6 @@
 :root {
   --container-padding-inline: 40px;
 
-  --color-text: #1c1c1c;
-  --color-text-secondary: #565656;
-  --color-text-tertiary: #8e8e8e;
-  --color-bg: #ffffff;
-  --color-bg-secondary: #f9f9f9;
-  --color-bg-tertiary: #f1f1f1;
-  --color-accent: #2c7be5;
-  --color-accent-action: #1a5edb;
-  --color-success: #3caf27;
-  --color-success-action: #2f8e1e;
-  --color-warning: #e1b12c;
-  --color-warning-action: #bc9110;
-  --color-error: #db2244;
-  --color-error-action: #b31834;
-
   @include vp-1023 {
     --container-padding-inline: 32px;
   }

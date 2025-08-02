@@ -1,6 +1,7 @@
 const config = {
   semi: true,
   singleQuote: true,
+  jsxSingleQuote: false,
   printWidth: 80,
   trailingComma: 'all',
   arrowParens: 'always',

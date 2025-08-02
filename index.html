@@ -1,22 +1,51 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>JS Practice | Проекты</title>
-  <link rel="stylesheet" href="./styles/styles.scss">
-</head>
-<body>
-  <section class="projects">
-    <div class="container">
-      <h1>Учебные проекты</h1>
-      <ol>
-        <li><a href="/projects/todo-app/index.html">Todo App</a></li>
-        <li><a href="/projects/form-validation/index.html">Form Validation</a></li>
-      </ol>
-    </div>
-  </section>
+<!doctype html>
+<html class="wa-dark" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS Practice | Проекты</title>
+    <link rel="stylesheet" href="./styles/styles.scss" />
+  </head>
 
-  <script type="module" src="./scripts/main.js"></script>
-</body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>JS Practice</h1>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <h2>Проекты</h2>
+          <ol>
+            <li>
+              <wa-button
+                href="/projects/todo-app/index.html"
+                appearance="plain"
+                variant="brand"
+                >Todo App</wa-button
+              >
+            </li>
+            <li>
+              <wa-button
+                href="/projects/form-validation/index.html"
+                appearance="plain"
+                variant="brand"
+                >Form Validation</wa-button
+              >
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer wa-body-l">
+      <div class="container">
+        <p>&copy; 2025 JS Practice</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
 </html>
